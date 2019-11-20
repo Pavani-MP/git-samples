@@ -1,0 +1,11 @@
+1)   $docker --version
+------to check docker version
+2)    $docker run hello-world
+------ runs the hello-world image,if its not there in local repo it will pull from dockerhub
+3)    $ docker run --detach --publish=80:80 --name=webserver nginx
+In a web browser, go to http://localhost/ to view the nginx homepage. Because we specified the default HTTP port, it isn’t necessary to append :80 at the end of the URL.
+4)  docker ps/docker container ls
+----displays running containers
+5)  docker ps -a
+-----to view all containers running and exited containers
+
